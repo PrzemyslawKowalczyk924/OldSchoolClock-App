@@ -25,23 +25,24 @@
   transform-origin: bottom center;
 }
 
-.hand .minutes, .hand .seconds {
+.hand.minutes, .hand.seconds {
   height: calc(50% - 3px);
   background-color: black;
 }
 
-.hand .seconds {
+.hand.seconds {
   width: 1px;
 }
 
-.hand .minutes {
+.hand.minutes {
   width: 3px;
 }
 
-.hand .hours {
+.hand.hours {
   top: 20%;
   width: 4px;
   height: 30%;
   background-color: red;
 }
+
 /*# sourceMappingURL=style.css.map */
