@@ -18,8 +18,10 @@ window.setInterval(function(){
             hand.style.transform = `rotate(${time[index] / 60 * 360}deg)`;
         }
 
-        //console.log(time);
+        //console.log(date);
     }
+
+    document.getElementById("datetime").innerHTML = date.toLocaleString();
 
     /* const hours = document.querySelector('.hours');
     hours.style.transform = `rotate(${date.getHours() / 12 * 360}deg)`;
